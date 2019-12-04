@@ -66,4 +66,4 @@ let allJobs = [];
 
 for(let prop in occupations) {
     allJobs.push(occupations[prop]);
-}
+} //not working in console how i want it to....will attempt again
