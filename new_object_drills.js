@@ -24,4 +24,11 @@ const myObj = {
 for (const prop in myObj) { 
         console.log(`${prop}: ${myObj[prop]}`);
     }
-}
+
+//Arrays In Objects
+
+const food = {
+    meals = ["breakfast", "second breakfast", "elveness", "lunch", "afternoon tea", "dinner", "supper"]
+};
+
+console.log(food[3]);
