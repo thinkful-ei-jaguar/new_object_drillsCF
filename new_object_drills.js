@@ -10,3 +10,18 @@ const loaf = {
 
 console.log(loaf)
 console.log(loaf.hydration())
+
+//Iterating Over Object Properties
+
+const myObj = {
+    foo: "pikachu",
+    bar: "ponyta",
+    fum: "psyduck",
+    quux: "bulbasaur",
+    spam: "snorlax",
+}; 
+
+for (const prop in myObj) { 
+        console.log(`${prop}: ${myObj[prop]}`);
+    }
+}
