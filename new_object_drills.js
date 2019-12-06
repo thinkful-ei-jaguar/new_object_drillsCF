@@ -48,8 +48,8 @@ let occupations = [
     },
 
     {
-        name: "Bob Belcher",
-        jobTitle: "Chef"
+        name: "Gene Belcher",
+        jobTitle: "Beefsquatch"
     },
 
     {
@@ -64,3 +64,9 @@ let occupations = [
 ];
 
 console.log(occupations);
+
+//Properties that Aren't There
+
+occupations.forEach(person => {
+    console.log(`Name: ${person.name}, Job Title: ${person.jobTitle}`);
+}
